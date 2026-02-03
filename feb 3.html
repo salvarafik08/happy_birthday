@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Hibbi❤️</title>
+<link rel="stylesheet" href="hibbi.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 : PASSWORD -->
+<div class="page active bg1" id="p1">
+  <h1>🔒 For My Person</h1>
+  <p>Enter the secret word</p>
+  <input type="password" id="password" placeholder="What would I call You ?💕">
+  <p id="hint" class="hint"></p>
+  <button onclick="checkPassword()"> Unlock 💗</button>
+</div>
+
+<!-- PAGE 2 : BIRTHDAY -->
+<div class="page bg2" id="p2">
+  <h1 class="typing">Happiest Birthday My Hibbi or my pookie hubby 🎂🤎💋</h1>
+  <p>This website is to show how much your coding girlfriend loves you...Ummaaahhhhhhhhhh😘😘</p>
+  <button onclick="go(3)">Next 💖</button>
+</div>
+
+<!-- PAGE 3 : FEELINGS -->
+<div class="page bg3" id="p3">
+  <h1>Just So You Know 💕</h1>
+  <p>
+    I Love u soo much , atleast as deep as pacific ocean .<br>
+    I fell in love with you , don't know why , don't know how<br>
+    ..I just did...<br>
+  </p>
+  <button onclick="go(4)">click for a song 🎶</button>
+</div>
+
+<!-- PAGE 4 : SONG + CATS -->
+<div class="page bg4" id="p4">
+  <h1>Our Song 🎵</h1>
+  <p>FOR U I could sing , ana my voice isn't good as yours🐱💞</p>
+
+  <div class="cats">
+    <div class="cat"> </div>
+    <div class="cat"> </div>
+  </div>
+
+  <audio controls autoplay>
+    <source src="our song.mp3" type="audio/mpeg">
+  </audio>
+
+  <button onclick="go(5)">Memories 🥹</button>
+</div>
+
+<!-- PAGE 5 : QUESTIONS -->
+<div class="page bg5" id="p5">
+  <h1>Before You See Us 💗</h1>
+
+  <p>Who is our son ?</p>
+  <input id="q1" placeholder="Your answer">
+
+  <p>our first kiss ?💕</p>
+  <input id="q2" placeholder="Your answer">
+
+  <button onclick="checkAnswers()">Unlock Memories 🔓</button>
+</div>
+
+<!-- PAGE 6 : PHOTOS -->
+<div class="page bg5" id="p6">
+  <h1>Us 💞</h1>
+
+  <div class="slider">
+    <img id="sliderImage" src="us 2.jpeg">
+  </div>
+
+  <div class="slider-btns">
+    <button onclick="prevImage()">⬅️</button>
+    <button onclick="nextImage()">➡️</button>
+  </div>
+
+  <button onclick="go(7)">Last Page 💌</button>
+</div>
+<!-- PAGE 7 : NOTE 1 -->
+<div class="page bg6" id="p7">
+  <h1>For You 🤎</h1>
+  <p class="note">
+   Do you ever wonder how special you are to me?
+  </p>
+  <button onclick="go(8)">Next 💌</button>
+</div>
+
+<!-- PAGE 8 : NOTE 2 -->
+<div class="page bg6" id="p8">
+  <h1>More From My Heart 💕</h1>
+  <p class="note">
+    I would proudly say that you were 
+<br>The first boy I ever spoke to that was you.<br>
+My first text,<br>
+my first boyfriend,<br>
+my first love,<br>
+my first kiss,<br>
+my first hug…<br>
+and the last too.<br>
+Also, my first husband ASAP 😂❤️
+  </p>
+  <button onclick="go(9)">Something For You 🎁</button>
+</div>
+<!-- PAGE 9 : GIFT -->
+<div class="page bg5" id="p9">
+  <h1>A Small Gift For You 🎀</h1>
+
+  <div class="gift-box" onclick="openGift()">
+    🎁
+  </div>
+
+  <p class="tap-text">Umaaaaaaah💝</p>
+
+  <img id="giftImage" src="pookie.jpeg" class="gift-img hidden">
+
+  <button class="hidden" id="finalBtn" onclick="go(10)">Last 💖</button>
+</div>
+
+<!-- PAGE 10 : FINAL -->
+<div class="page bg6" id="p10">
+  <h1>Always You ❤️</h1>
+  <p id="countdown"></p>
+  <p>Humans fight, they fix, they stay.<br>
+Ellame mudinju poganum nu illa.<br>
+Nambaloda mudiyum… aana namakkulla edhuvum mudiyadhu.No distance scares us puirtha ?!...
+nee sonnathu thaa elame oru naseeb illana ithana time la epaiyo we wound have separated<br>
+But we’re still holding on, because it’s meant to be.<br>
+soo ethunalu I will be there...<br> at ur lows & highs ....<br>
+always proud about who u are now .... even after countless fight u choose me sariya....<br>
+love u hibbi🤎...tata
+</div>
+
+<script src="roohi.js"></script>
+</body>
+</html>
